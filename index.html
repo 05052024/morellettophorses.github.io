@@ -3,42 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Hípica</title>
-  <style>
-    body { font-family: Arial, sans-serif; text-align: center; background-color: #fafafa; color: #333; }
-    header { background-color: #
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hípica Noemí</title>
+  <title>Morelllet Sport Horses</title>
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #fafafa;
-      color: #333;
+      background-color: #f4f6f8;
+      color: #2b2b2b;
     }
 
     header {
-      background-color: #4a8057;
+      background-color: #1f3b73;
       color: white;
-      padding: 30px 0;
+      padding: 40px 0 30px;
       text-align: center;
     }
 
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 8px;
+      color: #dbe3f3;
+    }
+
     nav {
-      background-color: #36643e;
+      background-color: #2d4a86;
       text-align: center;
-      padding: 10px 0;
+      padding: 12px 0;
     }
 
     nav a {
       color: white;
       text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
+      margin: 0 18px;
+      font-weight: 500;
+      font-size: 1.05em;
     }
 
     nav a:hover {
@@ -46,30 +50,39 @@
     }
 
     section {
-      padding: 40px 20px;
+      padding: 50px 20px;
       max-width: 900px;
       margin: auto;
     }
 
     h2 {
-      color: #36643e;
-      border-bottom: 2px solid #4a8057;
-      padding-bottom: 5px;
+      color: #2d4a86;
+      border-bottom: 2px solid #2d4a86;
+      padding-bottom: 6px;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style-type: "🐎 ";
+      padding-left: 20px;
+      line-height: 1.8;
     }
 
     .caballos img, .instalaciones img {
       width: 100%;
-      max-width: 600px;
+      max-width: 700px;
       border-radius: 10px;
       margin-top: 15px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.2);
     }
 
     footer {
-      background-color: #36643e;
+      background-color: #2d4a86;
       color: white;
       text-align: center;
-      padding: 15px;
+      padding: 20px;
       font-size: 0.9em;
+      margin-top: 50px;
     }
 
     @media (max-width: 600px) {
@@ -77,14 +90,18 @@
         display: block;
         margin: 10px 0;
       }
+
+      header h1 {
+        font-size: 2em;
+      }
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Hípica Noemí</h1>
-    <p>Pasión, cuidado y entrenamiento ecuestre</p>
+    <h1>Morelllet Sport Horses</h1>
+    <p>Menorca · Islas Baleares</p>
   </header>
 
   <nav>
@@ -96,35 +113,37 @@
 
   <section id="caballos" class="caballos">
     <h2>Caballos en venta</h2>
-    <p>Aquí encontrarás nuestros caballos disponibles para la venta. Todos cuidados con dedicación y entrenados para ofrecer su mejor versión.</p>
+    <p>En Morelllet Sport Horses seleccionamos, cuidamos y entrenamos caballos de deporte con dedicación y profesionalidad.  
+    Próximamente podrás ver aquí nuestros ejemplares disponibles.</p>
     <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Horse_in_field.jpg" alt="Caballo en el campo">
   </section>
 
   <section id="servicios" class="servicios">
     <h2>Servicios</h2>
     <ul>
-      <li>Clases de equitación para todas las edades</li>
       <li>Entrenamiento de caballos de deporte</li>
+      <li>Clases de equitación y perfeccionamiento</li>
       <li>Pupilaje con atención personalizada</li>
-      <li>Rutas y paseos a caballo</li>
+      <li>Preparación para competición</li>
+      <li>Asesoramiento en compra y venta de caballos</li>
     </ul>
   </section>
 
   <section id="instalaciones" class="instalaciones">
     <h2>Instalaciones</h2>
-    <p>Contamos con pistas amplias, cuadras confortables y un entorno natural ideal para el bienestar de los caballos.</p>
+    <p>Contamos con amplias pistas de entrenamiento, cuadras modernas y zonas de descanso que garantizan el bienestar y la comodidad de nuestros caballos.</p>
     <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Horse_stables.jpg" alt="Instalaciones de la hípica">
   </section>
 
   <section id="contacto" class="contacto">
     <h2>Contacto</h2>
-    <p>📍 Dirección: [Tu dirección o municipio]</p>
-    <p>📞 Teléfono: [Tu número]</p>
-    <p>📧 Email: [Tu correo]</p>
+    <p>📍 Menorca, Islas Baleares</p>
+    <p>📞 Teléfono: <a href="tel:+34656190569">656 190 569</a></p>
+    <p>📧 Email: <a href="mailto:Morellettophorses@gmail.com">Morellettophorses@gmail.com</a></p>
   </section>
 
   <footer>
-    <p>© 2025 Hípica Noemí — Todos los derechos reservados</p>
+    <p>© 2025 Morelllet Sport Horses — Menorca, Islas Baleares</p>
   </footer>
 
 </body>
